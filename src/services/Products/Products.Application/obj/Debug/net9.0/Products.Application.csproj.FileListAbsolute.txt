@@ -1,10 +1,15 @@
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\bin\Debug\net9.0\Products.Application.deps.json
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\bin\Debug\net9.0\Products.Application.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\bin\Debug\net9.0\Products.Application.pdb
+J:\MicroService\MicroSolution\src\services\Products\Products.Application\bin\Debug\net9.0\Products.Domin.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Application\bin\Debug\net9.0\Products.Domin.pdb
+J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.csproj.AssemblyReference.cache
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.GeneratedMSBuildEditorConfig.editorconfig
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.AssemblyInfoInputs.cache
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.AssemblyInfo.cs
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.csproj.CoreCompileInputs.cache
+J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.sourcelink.json
+J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.B05A2103.Up2Date
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\refint\Products.Application.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Application\obj\Debug\net9.0\Products.Application.pdb

@@ -4,6 +4,89 @@
     "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj": {}
   },
   "projects": {
+    "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj",
+        "projectName": "Products.Application",
+        "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Domin\\Products.Domin.csproj": {
+                "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Domin\\Products.Domin.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Domin\\Products.Domin.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -186,6 +269,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj": {
+                "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj"
+              },
               "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Infrastructure\\Products.Infrastructure.csproj": {
                 "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Infrastructure\\Products.Infrastructure.csproj"
               }
@@ -208,6 +294,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )"

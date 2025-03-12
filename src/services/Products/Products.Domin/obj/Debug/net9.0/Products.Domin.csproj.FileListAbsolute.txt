@@ -5,6 +5,7 @@ J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net
 J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.AssemblyInfoInputs.cache
 J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.AssemblyInfo.cs
 J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.csproj.CoreCompileInputs.cache
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.sourcelink.json
 J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\refint\Products.Domin.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.pdb

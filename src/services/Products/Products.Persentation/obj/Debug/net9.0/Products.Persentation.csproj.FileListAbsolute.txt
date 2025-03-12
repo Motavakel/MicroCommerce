@@ -6,7 +6,10 @@ J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\De
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Persentation.runtimeconfig.json
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Persentation.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Persentation.pdb
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\AutoMapper.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Humanizer.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\MediatR.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\MediatR.Contracts.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
@@ -108,8 +111,10 @@ J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\De
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Application.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Domin.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Infrastructure.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Application.pdb
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Infrastructure.pdb
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Domin.pdb
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\Products.Persentation.csproj.AssemblyReference.cache
@@ -119,6 +124,7 @@ J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\De
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\Products.Persentation.csproj.CoreCompileInputs.cache
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\Products.Persentation.MvcApplicationPartsAssemblyInfo.cs
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\Products.Persentation.MvcApplicationPartsAssemblyInfo.cache
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\Products.Persentation.sourcelink.json
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\scopedcss\bundle\Products.Persentation.styles.css
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\staticwebassets.build.json
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\obj\Debug\net9.0\staticwebassets.development.json

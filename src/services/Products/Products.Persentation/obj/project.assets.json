@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "AutoMapper/14.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -11,6 +27,36 @@
         },
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR/12.4.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.1, 3.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
             "related": ".xml"
           }
         }
@@ -976,6 +1022,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Products.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "MediatR": "12.4.1",
+          "Microsoft.EntityFrameworkCore": "9.0.3",
+          "Products.Domin": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Products.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Products.Application.dll": {}
+        }
+      },
       "Products.Domin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1005,6 +1067,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/14.0.0": {
+      "sha512": "OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
+      "type": "package",
+      "path": "automapper/14.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.14.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net8.0/AutoMapper.dll",
+        "lib/net8.0/AutoMapper.xml"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1021,6 +1098,37 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MediatR/12.4.1": {
+      "sha512": "0tLxCgEC5+r1OCuumR3sWyiVa+BMv3AgiU4+pz8xqTc+2q1WbUEXFOr7Orm96oZ9r9FsldgUtWvB2o7b9jDOaw==",
+      "type": "package",
+      "path": "mediatr/12.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "gradient_128x128.png",
+        "lib/net6.0/MediatR.dll",
+        "lib/net6.0/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.4.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.1": {
+      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -2951,6 +3059,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Products.Application/1.0.0": {
+      "type": "project",
+      "path": "../Products.Application/Products.Application.csproj",
+      "msbuildProject": "../Products.Application/Products.Application.csproj"
+    },
     "Products.Domin/1.0.0": {
       "type": "project",
       "path": "../Products.Domin/Products.Domin.csproj",
@@ -2964,9 +3077,11 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "MediatR >= 12.4.1",
       "Microsoft.EntityFrameworkCore >= 9.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4",
+      "Products.Application >= 1.0.0",
       "Products.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 7.3.1",
       "Swashbuckle.AspNetCore.SwaggerUI >= 7.3.1"
@@ -3004,6 +3119,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj": {
+              "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj"
+            },
             "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Infrastructure\\Products.Infrastructure.csproj": {
               "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Infrastructure\\Products.Infrastructure.csproj"
             }
@@ -3026,6 +3144,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.4.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.2, )"
@@ -3071,5 +3193,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 9.0.3 to 9.0.2. Reference the package directly from the project to select a different version. \r\n Products.Persentation -> Products.Application -> Microsoft.EntityFrameworkCore (>= 9.0.3) \r\n Products.Persentation -> Microsoft.EntityFrameworkCore (>= 9.0.2)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

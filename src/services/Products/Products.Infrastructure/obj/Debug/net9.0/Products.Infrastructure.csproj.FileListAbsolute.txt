@@ -9,6 +9,7 @@ J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.Infrastructure.AssemblyInfoInputs.cache
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.Infrastructure.AssemblyInfo.cs
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.Infrastructure.csproj.CoreCompileInputs.cache
+J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.Infrastructure.sourcelink.json
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.D1D4EC6E.Up2Date
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.Infrastructure.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\refint\Products.Infrastructure.dll
