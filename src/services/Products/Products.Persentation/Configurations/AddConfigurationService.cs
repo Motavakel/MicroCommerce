@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using Products.Infrastructure.Context;
+using Products.Infrastructure.Persistence.Context;
 
 namespace Products.Persentation.Configurations;
 

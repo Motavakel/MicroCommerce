@@ -2,7 +2,7 @@
 using Products.Domin.Entities;
 using Products.Infrastructure.Configurations;
 
-namespace Products.Infrastructure.Context;
+namespace Products.Infrastructure.Persistence.Context;
 
 public class ProductContext : DbContext
 {
@@ -10,8 +10,8 @@ public class ProductContext : DbContext
     {
     }
 
-    public DbSet<Product> Products { get; set; }
-    public DbSet<Category> Categories { get; set; }
+    public DbSet<Product> Products => Set<Product>();
+    public DbSet<Category> Categories => Set<Category>();
 
 
 

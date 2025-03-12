@@ -25,7 +25,7 @@ public class BaseSpecification<T> : ISpecification<T> where T : BaseEntity
         Criteria = criteria;
     }
 
-    public void AddIncludes(Expression<Func<T, Object>> include)
+    public void AddInclude(Expression<Func<T, Object>> include)
     {
         Includes.Add(include);
     }
@@ -38,7 +38,7 @@ public class BaseSpecification<T> : ISpecification<T> where T : BaseEntity
         OrderByDescending = orderByDes;
     }
 
-    public void ApplyPagging(int skip, int take,bool isPagingEnabled = true)
+    public void ApplyPaging(int skip, int take,bool isPagingEnabled = true)
     {
         Skip = skip;
         Take = take;

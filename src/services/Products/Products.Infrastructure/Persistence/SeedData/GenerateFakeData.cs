@@ -1,6 +1,6 @@
 ﻿using Products.Domin.Entities;
 
-namespace Products.Infrastructure.SeedData;
+namespace Products.Infrastructure.Persistence.SeedData;
 
 public class GenerateFakeData
 {
@@ -37,7 +37,7 @@ public class GenerateFakeData
                     },
                     new Product
                     {
-                        Id = 4, 
+                        Id = 4,
                         Title = "کامپیوتر رومیزی Dell",
                         Description = "کامپیوتر رومیزی برند Dell مدل XPS",
                         Price = 40000,

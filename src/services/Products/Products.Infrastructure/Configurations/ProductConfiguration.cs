@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Products.Domin.Entities;
-using Products.Infrastructure.SeedData;
+using Products.Infrastructure.Persistence.SeedData;
 
 namespace Products.Infrastructure.Configurations;
 

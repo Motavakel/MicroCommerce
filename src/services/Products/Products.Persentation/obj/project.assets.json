@@ -1055,6 +1055,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+          "Products.Application": "1.0.0",
           "Products.Domin": "1.0.0"
         },
         "compile": {

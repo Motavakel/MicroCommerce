@@ -1,14 +1,13 @@
 ﻿using Products.Domin.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Products.Application.Contract;
 
 public interface IUnitOfWork
 {
-    Task<int> SaveAsync();
+    Task<int> SaveAsync(CancellationToken cancellation);
     IGenericRepository<T> GetGenericRepository<T>() where T : BaseEntity;
+
+    Task BeginTransactionAsync(CancellationToken cancellation);
+    Task CommitTransactionAsync(CancellationToken cancellation);
+    Task RollbackTransactionAsync(CancellationToken cancellation);
 }

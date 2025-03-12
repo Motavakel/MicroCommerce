@@ -180,6 +180,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj": {
+                "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Products.Application.csproj"
+              },
               "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Domin\\Products.Domin.csproj": {
                 "projectPath": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Domin\\Products.Domin.csproj"
               }

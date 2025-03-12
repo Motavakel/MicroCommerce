@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Products.Application.Dtos;
-using Products.Application.Features.Products.Command;
+using Products.Application.Features.Products.Query.GetAll;
+using Products.Application.Wrappers;
 
 namespace Products.Persentation.Controllers;
 
 public class ProductsController : BaseApiController
 {
     [HttpGet]
-    public async Task<ActionResult<List<ProductDto>>> GetProducts(CancellationToken cancellation)
+    public async Task<ActionResult<PaginationResponse<ProductDto>>> GetProducts([FromQuery]GetProductsQuery request ,CancellationToken cancellation)
     {
         return await Mediator.Send(new GetProductsQuery(), cancellation);
     }
