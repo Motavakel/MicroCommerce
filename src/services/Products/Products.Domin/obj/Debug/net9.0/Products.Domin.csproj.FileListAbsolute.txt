@@ -1,0 +1,11 @@
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\bin\Debug\net9.0\Products.Domin.deps.json
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\bin\Debug\net9.0\Products.Domin.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\bin\Debug\net9.0\Products.Domin.pdb
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.GeneratedMSBuildEditorConfig.editorconfig
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.AssemblyInfoInputs.cache
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.AssemblyInfo.cs
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.csproj.CoreCompileInputs.cache
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\refint\Products.Domin.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\Products.Domin.pdb
+J:\MicroService\MicroSolution\src\services\Products\Products.Domin\obj\Debug\net9.0\ref\Products.Domin.dll

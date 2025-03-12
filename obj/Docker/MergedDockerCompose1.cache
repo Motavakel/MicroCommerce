@@ -1,0 +1,46 @@
+name: dockercompose13416906495993997945
+services:
+  pgadmin:
+    container_name: my_pgadmin
+    depends_on:
+      postgres:
+        condition: service_started
+        required: true
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    image: dpage/pgadmin4:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5070"
+        protocol: tcp
+    restart: always
+  postgres:
+    container_name: my_postgres
+    environment:
+      POSTGRES_DB: products_mservice
+      POSTGRES_PASSWORD: milad123
+      POSTGRES_USER: milad123
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5050"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgres_data
+        target: /var/lib/postgresql/data
+        volume: {}
+networks:
+  default:
+    name: dockercompose13416906495993997945_default
+volumes:
+  postgres_data:
+    name: dockercompose13416906495993997945_postgres_data
