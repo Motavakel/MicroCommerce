@@ -9,23 +9,23 @@ using Products.Domin.Entities;
 
 namespace Products.Application.Features.Products.Query.GetAll;
 
-public class GetProductsQuery : RequestParametersBasic, IRequest<PaginationResponse<ProductDto>>
+public class GetAllProductsQuery : RequestParametersBasic, IRequest<PaginationResponse<ProductDto>>
 {
     public decimal? CurrentPrice { get; set; }
 }
 
-public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, PaginationResponse<ProductDto>>
+public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, PaginationResponse<ProductDto>>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
 
-    public GetProductsQueryHandler(IUnitOfWork unitOfWork, IMapper mapper)
+    public GetAllProductsQueryHandler(IUnitOfWork unitOfWork, IMapper mapper)
     {
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
 
-    public async Task<PaginationResponse<ProductDto>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
+    public async Task<PaginationResponse<ProductDto>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
         var spec = new GetAllProductBySpec(request);
         var count = await _unitOfWork.GetGenericRepository<Product>().GetCountBySpec(new GetAllProductCountBySpec(request),cancellationToken);
@@ -49,7 +49,7 @@ public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, Paginat
 
 public class GetAllProductBySpec : BaseSpecification<Product>
 {
-    public GetAllProductBySpec(GetProductsQuery request) : base(
+    public GetAllProductBySpec(GetAllProductsQuery request) : base(
         x => (string.IsNullOrEmpty(request.Search) || x.Title.Contains(request.Search))&&
              (!request.CurrentPrice.HasValue || x.Price <= request.CurrentPrice.Value))
     {
@@ -79,7 +79,7 @@ public class GetAllProductBySpec : BaseSpecification<Product>
 
 public class GetAllProductCountBySpec : BaseSpecification<Product>
 {
-    public GetAllProductCountBySpec(GetProductsQuery request) : base(
+    public GetAllProductCountBySpec(GetAllProductsQuery request) : base(
     
         x => (string.IsNullOrEmpty(request.Search) || x.Title.Contains(request.Search))&&
              (!request.CurrentPrice.HasValue || x.Price <= request.CurrentPrice.Value)

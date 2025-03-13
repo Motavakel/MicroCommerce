@@ -7,6 +7,9 @@ J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\De
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Persentation.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Products.Persentation.pdb
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\AutoMapper.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\FluentValidation.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\Humanizer.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\MediatR.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Persentation\bin\Debug\net9.0\MediatR.Contracts.dll

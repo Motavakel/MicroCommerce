@@ -8,7 +8,7 @@ namespace Products.Persentation.Controllers;
 public class ProductsController : BaseApiController
 {
     [HttpGet]
-    public async Task<ActionResult<PaginationResponse<ProductDto>>> GetProducts([FromQuery]GetProductsQuery request ,CancellationToken cancellation)
+    public async Task<ActionResult<PaginationResponse<ProductDto>>> GetProducts([FromQuery]GetAllProductsQuery request ,CancellationToken cancellation)
     {
         return Ok(await Mediator.Send(request, cancellation));
     }
