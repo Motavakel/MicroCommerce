@@ -2,7 +2,9 @@ J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\Debug\net9.0\Products.Infrastructure.runtimeconfig.json
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\Debug\net9.0\Products.Infrastructure.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\Debug\net9.0\Products.Infrastructure.pdb
+J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\Debug\net9.0\Products.Application.dll
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\Debug\net9.0\Products.Domin.dll
+J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\Debug\net9.0\Products.Application.pdb
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\bin\Debug\net9.0\Products.Domin.pdb
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.Infrastructure.csproj.AssemblyReference.cache
 J:\MicroService\MicroSolution\src\services\Products\Products.Infrastructure\obj\Debug\net9.0\Products.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

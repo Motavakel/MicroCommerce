@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "J:\\MicroService\\MicroSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\features\\products\\query\\getall\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\features\\products\\query\\getall\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4544E689-5ECF-45F8-9714-6D9F4CCD6CBF}|src\\services\\Products\\Products.Infrastructure\\Products.Infrastructure.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.infrastructure\\persistence\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4544E689-5ECF-45F8-9714-6D9F4CCD6CBF}|src\\services\\Products\\Products.Infrastructure\\Products.Infrastructure.csproj|solutionrelative:src\\services\\products\\products.infrastructure\\persistence\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\contract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\contract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\contract\\specefication\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\contract\\specefication\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.persentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|solutionrelative:src\\services\\products\\products.persentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.persentation\\configurations\\addconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|solutionrelative:src\\services\\products\\products.persentation\\configurations\\addconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Infrastructure\\Persistence\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Infrastructure\\Persistence\\GenericRepository.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Infrastructure\\Persistence\\GenericRepository.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Infrastructure\\Persistence\\GenericRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:14:44.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Contract\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\Contract\\IGenericRepository.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Contract\\IGenericRepository.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Application\\Contract\\IGenericRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:13:49.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseSpecification.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Contract\\Specefication\\BaseSpecification.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\Contract\\Specefication\\BaseSpecification.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Contract\\Specefication\\BaseSpecification.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Application\\Contract\\Specefication\\BaseSpecification.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwCYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:46:20.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetProductsQuery.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetProductsQuery.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetProductsQuery.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetProductsQuery.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetProductsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:35:54.765Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -94,15 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Persentation\\Controllers\\ProductsController.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Persentation\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AddConfigurationService.cs",
+              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
+              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
+              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
+              "RelativeToolTip": "src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T21:35:46.666Z",
+              "WhenOpened": "2025-03-13T07:48:26.201Z",
               "EditorCaption": ""
             }
           ]

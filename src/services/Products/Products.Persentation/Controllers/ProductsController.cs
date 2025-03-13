@@ -10,6 +10,6 @@ public class ProductsController : BaseApiController
     [HttpGet]
     public async Task<ActionResult<PaginationResponse<ProductDto>>> GetProducts([FromQuery]GetProductsQuery request ,CancellationToken cancellation)
     {
-        return await Mediator.Send(new GetProductsQuery(), cancellation);
+        return Ok(await Mediator.Send(request, cancellation));
     }
 }

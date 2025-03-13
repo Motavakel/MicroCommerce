@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Products.Application.configurations;
+using Products.Infrastructure.Configuration;
 using Products.Infrastructure.Persistence.Context;
 
 namespace Products.Persentation.Configurations;
@@ -16,7 +18,10 @@ public static class AddConfigurationService
         builder.Services.AddSwaggerGen(c =>
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "Products", Version = "v1" })
         );
+        builder.Services.AddInfrastructureServices();
+        builder.Services.AddApplicationServices();
 
         return builder.Services;
     }
+
 }

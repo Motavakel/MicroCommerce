@@ -1,8 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Products.Domin.Entities;
-using Products.Infrastructure.SeedData;
-using System.Text.Json;
 
 namespace Products.Infrastructure.Configurations;
 
