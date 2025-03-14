@@ -12,7 +12,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Products API v1"));
 }
 
+
 app.UseHttpsRedirection();
+app.UseRouting();
 app.UseAuthorization();
+
+
+app.UseGraphQLGraphiQL("/ui/graphql");
+
+
 app.MapControllers();
 app.Run();

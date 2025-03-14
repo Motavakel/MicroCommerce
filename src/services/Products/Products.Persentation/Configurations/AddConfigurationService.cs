@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GraphQL.Server;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Products.Application.configurations;
 using Products.Infrastructure.Configuration;
@@ -20,6 +21,11 @@ public static class AddConfigurationService
         );
         builder.Services.AddInfrastructureServices();
         builder.Services.AddApplicationServices();
+
+
+        builder.Services.
+            AddGraphQL().
+            AddSystemTextJson();
 
         return builder.Services;
     }
