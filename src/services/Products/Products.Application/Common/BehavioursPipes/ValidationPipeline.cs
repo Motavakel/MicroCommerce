@@ -6,8 +6,8 @@ namespace Products.Application.Common.BehavioursPipes;
 public class ValidationPipeline<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>
 {
-    private readonly List<IValidator<TRequest>> _validators;
-    public ValidationPipeline(List<IValidator<TRequest>> validators)
+    private readonly IEnumerable<IValidator<TRequest>> _validators;
+    public ValidationPipeline(IEnumerable<IValidator<TRequest>> validators)
     {
         _validators = validators;
     }
