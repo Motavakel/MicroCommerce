@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "J:\\MicroService\\MicroSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\common\\behaviourspipes\\validationpipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\common\\behaviourspipes\\validationpipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\features\\products\\query\\validators\\getallproductsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\features\\products\\query\\validators\\getallproductsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\configurations\\applicationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\configurations\\applicationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.persentation\\configurations\\addconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|solutionrelative:src\\services\\products\\products.persentation\\configurations\\addconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.persentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|solutionrelative:src\\services\\products\\products.persentation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.persentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E18D39E-3124-4BE9-AC6F-1263427CF4D4}|src\\services\\Products\\Products.Persentation\\Products.Persentation.csproj|solutionrelative:src\\services\\products\\products.persentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\features\\products\\query\\getall\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\features\\products\\query\\getall\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|j:\\microservice\\microsolution\\src\\services\\products\\products.application\\exceptions\\exceptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B402063-88DE-44EB-B302-1CAFB8C41A73}|src\\services\\Products\\Products.Application\\Products.Application.csproj|solutionrelative:src\\services\\products\\products.application\\exceptions\\exceptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,93 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetAllProductsValidator.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Features\\Products\\Query\\Validators\\GetAllProductsValidator.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\Features\\Products\\Query\\Validators\\GetAllProductsValidator.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Features\\Products\\Query\\Validators\\GetAllProductsValidator.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Application\\Features\\Products\\Query\\Validators\\GetAllProductsValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:33:58.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ValidationPipeline.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Common\\BehavioursPipes\\ValidationPipeline.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\Common\\BehavioursPipes\\ValidationPipeline.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Common\\BehavioursPipes\\ValidationPipeline.cs*",
-              "RelativeToolTip": "src\\services\\Products\\Products.Application\\Common\\BehavioursPipes\\ValidationPipeline.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:23:02.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationConfiguration.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\configurations\\ApplicationConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\configurations\\ApplicationConfiguration.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\configurations\\ApplicationConfiguration.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Application\\configurations\\ApplicationConfiguration.cs",
+              "Title": "ExceptionResponse.cs",
+              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Exceptions\\ExceptionResponse.cs",
+              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\Exceptions\\ExceptionResponse.cs",
+              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Exceptions\\ExceptionResponse.cs",
+              "RelativeToolTip": "src\\services\\Products\\Products.Application\\Exceptions\\ExceptionResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:22:13.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Persentation\\Properties\\launchSettings.json",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\services\\Products\\Products.Persentation\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T21:21:14.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddConfigurationService.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Persentation\\Configurations\\AddConfigurationService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:20:43.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Program.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Persentation\\Program.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Persentation\\Program.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Persentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:19:59.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetAllProductsQuery.cs",
-              "DocumentMoniker": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetAllProductsQuery.cs",
-              "RelativeDocumentMoniker": "src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetAllProductsQuery.cs",
-              "ToolTip": "J:\\MicroService\\MicroSolution\\src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetAllProductsQuery.cs",
-              "RelativeToolTip": "src\\services\\Products\\Products.Application\\Features\\Products\\Query\\GetAll\\GetAllProductsQuery.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T21:18:36.424Z",
+              "WhenOpened": "2025-03-14T23:30:38.064Z",
               "EditorCaption": ""
             }
           ]

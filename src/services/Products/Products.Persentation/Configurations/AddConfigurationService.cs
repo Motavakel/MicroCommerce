@@ -27,13 +27,13 @@ public static class AddConfigurationService
         builder.Services.AddApplicationServices();
 
 
-/*        builder.Services.AddScoped<AppQueries>();
+        builder.Services.AddScoped<AppQueries>();
         builder.Services.AddScoped<AppMutations>();
         builder.Services.AddScoped<AppSchema>();
 
         builder.Services.AddGraphQL()
             .AddSystemTextJson()
-            .AddGraphTypes(ServiceLifetime.Scoped);*/
+            .AddGraphTypes(ServiceLifetime.Scoped);
 
 
         return builder.Services;
