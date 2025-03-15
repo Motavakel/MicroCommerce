@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using MediatR;
+using Products.Application.Exceptions;
 
 namespace Products.Application.Common.BehavioursPipes;
 
@@ -28,7 +29,7 @@ public class ValidationPipeline<TRequest, TResponse> : IPipelineBehavior<TReques
 
         if(failures.Any())
         {
-            //TODO
+            throw new ValidationEntityException(failures);
         }
 
         return await next();

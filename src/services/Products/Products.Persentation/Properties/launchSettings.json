@@ -8,8 +8,8 @@
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "launchBrowser": true,
-     // "launchUrl": "swagger"
-      "launchUrl": "ui/graphql"
+      "launchUrl": "swagger"
+     // "launchUrl": "ui/graphql"
     },
     "IIS Express": {
       "commandName": "IISExpress",
